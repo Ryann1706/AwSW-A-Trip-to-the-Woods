@@ -11,7 +11,7 @@ It’s highly recommended that you have played through NSTH before playing this 
 
 How to start the mod:
 Play through Not-So-Tragic Hero, and get the [D] ending. The mod will start automatically after.
-Or
+Or:
 Install my utility mod, Mod Conflict Avoidance, and get Anna’s good ending. Then choose: “A Trip to the Woods.”
 
 If you have any issues, questions, feedback or encounter any bugs, grammar mistakes ect, then DM me on Discord at Ryann1706#2372
