@@ -110,7 +110,7 @@ $ renpy.pause (0.5)
 m "I found a relatively clear spot to pitch up the tent and started to unpack it."
 m "It was actually surprisingly easy to set up, which I put up to my extra dexterity."
 m "From what I could find while shopping for camping gear, dragons didn’t have sleeping bags, so the blankets and pillows I brought would have to do instead."
-m "After it was all done, Anna still hadn’t returned, so I started work on a simple fire pit."
+m "After it was all done, Anna still hadn’t returned, so I started to work on a simple fire pit."
 m "After a bit of searching, I found some rocks and eventually lugged some of the more manageable ones back to our campsite."
 $ renpy.pause (1.0)
 show anna normal with easeinright
@@ -225,7 +225,7 @@ menu:
         An sad "Forever, huh?"
         $ renpy.pause (2.0)
         An normal "I wouldn’t. The work I do for our society is far too important to just stay out here like a wild animal."
-        c "I guess your whole, “enjoying different experiences” mentality must have dried up."
+        c "I guess your whole “enjoying different experiences” mentality must have dried up."
         An face "[player_name], while I can appreciate spending some time isolated in the woods, I still do take pride in my work, and I also do enjoy some of the modern comforts of society."
         An smirk "Though, I have to admit, being out here again is a lot more appealing than I remember."
         c "Maybe it’s because you actually have some company this time?"
@@ -321,10 +321,10 @@ c "Hmm…"
 $ renpy.pause (2.5)
 c "Actually, yeah, I might."
 An "Let’s hear it."
-c "Have you heard of a game called, Never Have I Ever?"
+c "Have you heard of a game called “Never Have I Ever”?"
 An "No. How do you play it?"
-c "So, each of us hold up a hand, and we take turns saying, “never have I ever”, followed by asking if the other person has done something."
-c "An example would be, “never have I ever, played this before”, and if one of us has played this before, the person would put a finger down. The person who runs out of fingers first loses."
+c "So, each of us hold up a hand and we take turns saying, “Never have I ever”, followed by asking if the other person has done something."
+c "An example would be, “Never have I ever, played this before”, and if one of us has played this before, the person would put a finger down. The person who runs out of fingers first loses."
 An face "Right, and you definitely didn’t choose that last rule because you have more fingers than me."
 c "I’ll only use four, so it’s fair."
 An normal "Alright. You’re on."
@@ -342,7 +342,7 @@ menu:
         c "The winner gets the last smore?"
         An " Aww, what’s wrong, [player_name]? Are you not feeling confident enough to have real stakes?"
         An normal "Also, what last smore? We just ate the last of them."
-        c "There’s enough stuff to make one last one in your bag."
+        c "There’s enough stuff to make one last smore in your bag."
         An face "Wow. An uncooked smore. What an amazing prize."
         c "The prize itself isn’t important. Let’s just get started."
         An normal "Alright."
@@ -411,7 +411,7 @@ menu:
             c "What are you waiting for, Anna?"
             $ renpy.pause (1.5)
             An sad "Fine."
-            m "I put a finger down and Anna frustratedly did too."
+            m "I put a finger down as Anna frustratedly did too."
 
         $ ryann_atttw_minigame_anna_points -= 1
         $ ryann_atttw_minigame_player_points -= 1
@@ -497,7 +497,7 @@ menu:
         An smirk "Wow, you know me so well."
         c "I’ll take that as a yes?"
         An normal "Yeah. Long story short, I had more than my fair share of malicious and spiteful moments when I was younger."
-        An smirk "Especially when I was a teenager. I was a menace back then. But because I had such a, “{i}brilliant mind{/i}”, I was pretty much untouchable."
+        An smirk "Especially when I was a teenager. I was a menace back then. But because I had such a “{i}brilliant mind{/i}”, I was pretty much untouchable."
         c "I pity anyone who had to deal with you back then. I can only imagine how bad it was."
         An normal "Oh, trust me, it was {i}really{/i} bad."
 
@@ -521,7 +521,7 @@ menu:
         An face "Seriously?"
         c "What?"
         An "You really thought I’d be the kind of person who’d get into a physical fight with someone?"
-        An normal "Just because I can something come off as a bit hostile towards people, doesn’t mean I’d actually fight someone. That’s how you get arrested for assault and battery."
+        An normal "Just because I can sometimes come off as a bit hostile towards people, doesn’t mean I’d actually fight someone. That’s how you get arrested for assault and battery."
         c "But what about that whole conflict with Reza?"
         An face "I wouldn’t classify that as a fight. If that pathetic coward didn’t have that toy of his, any one of us could have dealt with him in a heartbeat."
         An smirk "And from what I recall, [player_name], you were there for that too."
@@ -582,7 +582,7 @@ if ryann_atttw_minigame_round_counter == 2:
     c "Actually, I have."
     An smirk "You actually think I’ll fall for that?"
     if sebastianunplayed == False and sebastianfail == False:
-        c "Well, when I first came here, me and Sebastion spent a night camping in a cave near my apartment."
+        c "Well, when I first came here, me and Sebastian spent a night camping in a cave near my apartment."
         An normal "Oh, yeah, I’ve heard of that place."
         c "Have you ever been there?"
         An face "No. It seemed way too pre-organized and pampered to be considered proper camping for me."
@@ -618,7 +618,7 @@ if ryann_atttw_minigame_round_counter == 4:
     An normal "Wow, that was lucky."
     An smirk "I mean, of course, I knew that. And of course, a human like you, would be intreated in flying-related stuff, considering it’s so new to you."
     c "Have you not seen a flying performance?"
-    An normal "No. I have no interest in watching that. I see people flying every day, why would I purposely go out of my way to watch someone flying if looking out of a window could accomplish the same thing?"
+    An normal "No. I have no interest in watching that. I see people flying every day, so why would I purposely go out of my way to watch someone flying if looking out of a window could accomplish the same thing?"
 
     $ ryann_atttw_minigame_player_points -= 1
     $ ryannDisplayVar2 = ryann_atttw_minigame_player_points
@@ -661,7 +661,7 @@ if ryann_atttw_minigame_winner == "player":
 
             "Share it.":
                 c "Hey, Anna, you want half?"
-                An sad "No, you won, so you get the smore. That was the bet"
+                An sad "No, you won, so you get the smore. That was the bet."
                 c "Yeah, I get the smore, so I choose what to do with it, and I’m sharing it with you."
                 $ renpy.pause (1.0)
                 An normal "Alright, fine."
@@ -721,7 +721,7 @@ if ryann_atttw_minigame_winner == "draw":
 
     if ryann_atttw_minigame_bet == "tent":
         An "Considering you’re the only one who wanted the tent, it’s only fair you take it down."
-        c "But it was a draw, so it’s only fair we both take it down"
+        c "But it was a draw, so it’s only fair we both take it down."
         An "Nope. You brought it, you take it down. I would’ve been perfectly fine without it."
         c "Fine."
 
@@ -771,7 +771,7 @@ m "Anna then slowly woke up too, stretching in a similar way to how a big cat wo
 c "Morning, sleepyhead."
 An "Morning."
 c "Seems like you’re well-rested."
-An smirk "Getting to sleep outside, and having my very own self-warming pillow makes a big difference."
+An smirk "Getting to sleep outside and having my very own self-warming pillow makes a big difference."
 show anna normal with dissolve
 $ renpy.pause (3.0)
 m "We laid there together for a while longer, until Anna eventually decided to get up."
@@ -788,7 +788,7 @@ show anna normal
 with dissolve
 $ renpy.pause (1.5)
 An "Catch."
-m "Anna threw something to me, which turned out to bar an energy bar."
+m "Anna threw something to me, which turned out to be an energy bar."
 c "What’s this?"
 An "Breakfast. Eat it, you’ll need the energy for later."
 m "She took out her own bar and started eating it too."
@@ -840,7 +840,7 @@ if ryann_atttw_annoy_anna >= 4:
     An smirk flip "We’re still out here for the rest of the week. Hopefully, this’ll make you think twice before annoying me again."
     c "The water is freezing!"
     An "Come on, it’s not that bad. You would’ve had to get used to the temperature anyway. I just sped up the process."
-    m "Anna then entered the water too, albeit, by her own choice."
+    m "Anna then entered the water too, albeit by her own choice."
     show anna at Position(xpos=0.5) with ease
     $ renpy.pause (0.2)
     show anna normal with dissolve
@@ -890,7 +890,7 @@ c "You {i}were{/i} asking for it."
 show anna normal with dissolve
 $ renpy.pause (1.5)
 hide anna with dissolve
-m "I then shifted my weight backwards, so I was floating on my back and started to sky gaze, and Anna started copying me soon after, so both of us were floating in blissful silence."
+m "I then shifted my weight backwards so I was floating on my back and started to skygaze. Anna started copying me soon after, so both of us were floating in blissful silence."
 
 $ renpy.pause (0.5)
 scene black with dissolve
@@ -1156,7 +1156,7 @@ An "It’ll only be for a few minutes, then I’ll make a fire like I said I wou
 c "Also, why exactly do you need my help? Are your hunting skills not as good as you said they were?"
 An face flip "This isn’t like last time. This isn’t a domesticated animal that’ll just stand there all doe-eyed waiting to be killed. This is a wild animal that will run away."
 An normal flip "I’ll go to the other side of it and you’ll scare it towards me."
-An "Give me about, half a minute, and I’ll be ready. And don’t forget to get my bag."
+An "Give me about… half a minute, and I’ll be ready. And don’t forget to get my bag."
 $ renpy.pause (0.5)
 show anna normal with dissolve
 $ renpy.pause (0.2)
@@ -1203,7 +1203,7 @@ else:
     An "This is supposed to be a vacation after all, not a survival challenge."
 
 $ renpy.pause (2.0)
-m "After some time, I pick up and tried the now perfectly cooked meat."
+m "After some time, I picked up and tried the now perfectly cooked meat."
 An "How is it?"
 c "Well, you {i}literally{/i} can’t get fresher than this."
 An smirk c "Exactly. You won’t find meat as high quality as this in a butcher’s."
@@ -1270,7 +1270,7 @@ if ryann_atttw_annoy_anna >= 6 or ryann_atttw_cliff_dive_choice == "push":
     show anna normal with dissolve
 c "I'm happy to hear that."
 An normal "And we're still out here for a few more days."
-An smirk "You know, maybe this whole, work-life balance stuff, isn’t too bad after all."
+An smirk "You know, maybe this whole work-life balance stuff isn’t too bad after all."
 show anna normal with dissolve
 $ renpy.pause (2.0)
 show anna sad with dissolve
@@ -1278,7 +1278,7 @@ $ renpy.pause (0.5)
 An "Hey, [player_name], I want to explain the whole cliff diving thing from earlier."
 An "Look, I’m not scared of heights, or cliff diving or whatever, it’s just…"
 $ renpy.pause (2.5)
-An "When you know you’re life is on a deadline, you stop caring about certain things."
+An "When you know your life is on a deadline, you stop caring about certain things."
 An "I didn’t care about the consequences of my actions before, because I knew I wouldn’t have been around long enough to deal with them."
 An normal "But thanks to you, I have a second chance now."
 An sad "That’s why I’m trying to not be as reckless as before. I want to make sure I don’t waste it on something stupid."
