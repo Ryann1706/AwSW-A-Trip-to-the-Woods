@@ -1130,7 +1130,7 @@ $ renpy.pause (2.0)
 show anna sad with dissolve
 $ renpy.pause (0.5)
 c "Anna, see how we’re both alive and unharmed? Now you know cliff diving isn’t something to be scared of."
-if $ ryann_atttw_cliff_dive_choice == "together":
+if ryann_atttw_cliff_dive_choice == "together":
     An face "Shut it, [player_name]."
 else:
     An disgust "[player_name], you better shut the hell up about that before I make you."
