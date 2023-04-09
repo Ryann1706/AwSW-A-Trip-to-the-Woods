@@ -1130,7 +1130,10 @@ $ renpy.pause (2.0)
 show anna sad with dissolve
 $ renpy.pause (0.5)
 c "Anna, see how we’re both alive and unharmed? Now you know cliff diving isn’t something to be scared of."
-An disgust "[player_name], you better shut the hell up about that before I make you."
+if $ ryann_atttw_cliff_dive_choice == "together":
+    An face "Shut it, [player_name]."
+else:
+    An disgust "[player_name], you better shut the hell up about that before I make you."
 c "Okay, okay. I’ll drop it."
 show anna sad with dissolve
 $ renpy.pause (2.0)
@@ -1304,7 +1307,7 @@ show anna slsmirk with dissolve
 $ renpy.pause (2.0)
 An "Tell anyone about this and I’ll cut out your tongue."
 $ renpy.pause (2.5)
-An "You know, I’ll looking forward to the rest of this trip more and more knowing things like this are waiting for me."
+An "You know, I’m looking forward to the rest of this trip more and more knowing things like this are waiting for me."
 c "And I’m looking forward to having the rest of this trip to continuously annoy you."
 An face "You really just have to ruin a nice moment like this, don’t you?"
 c "Well, I {i}did{/i} just say I was going to annoy you throughout the rest of this trip."
