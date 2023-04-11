@@ -7,6 +7,7 @@ image ryann_tent = "bg/ryann_tent.jpg"
 image ryann_tent_dark = "bg/ryann_tent_dark.jpg"
 image ryann_wilderness = "bg/ryann_wilderness.jpg"
 
+image ryann_atttw_credits = "cg/ryann_atttw_credits.png"
 
 init python:
 
@@ -54,7 +55,9 @@ label ryann_atttw_credits:
 
 play sound "mx/partingsong.ogg" fadein 1.0
 
-
+show ryann_atttw_credits with dissolvemed
+$ renpy.pause (12.0)
+scene black with dissolvemed
 
 show extra2 at Pan ((450, 0), (540,0), 20.0)
 show eckcreditsan at right
