@@ -6,7 +6,7 @@ import jz_magmalink as ml
 @loadable_mod
 class AWSWMod(Mod):
     name = "A Trip to the Woods"
-    version = "0.1"
+    version = "1.0"
     author = "Ryann1706"
     dependencies = ["MagmaLink", "Chaos_Knight core mod.", "Not-so-Tragic Hero"]
 
