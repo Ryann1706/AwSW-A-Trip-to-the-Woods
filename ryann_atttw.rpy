@@ -249,7 +249,7 @@ menu:
 
             "Thanks for looking out for me.":
                 c "Well, thanks for looking out for me. I appreciate it."
-                An "Given all you’ve done for me, it’s the least I could do."
+                An normal "Given all you’ve done for me, it’s the least I could do."
                 $ renpy.pause (0.5)
 
             "Are you sure it’s safe?":
@@ -829,13 +829,13 @@ An normal flip "Then I’ll make a fire so you can get dry."
 An smirk flip "[player_name], why are you stalling so much? Can you not swim, and are too embarrassed to admit it?"
 c "Oh, shut up."
 show anna normal flip with dissolve
-m "Not having a proper swimsuit, I reluctantly get undressed down to just my underwear and put my clothes aside for later, next to Anna’s bag."
+m "Not having a proper swimsuit, I reluctantly got undressed down to just my underwear and put my clothes aside for later, next to Anna’s bag."
 m "I made my way over to the lake's edge, and bent down to feel the water temperature."
 if ryann_atttw_annoy_anna >= 4:
     c "W-Wow, that’s really col-{w=0.3}{nw}"
     play sound "fx/watersurface.ogg"
     m "But before I could even finish the thought, I felt a shove from behind."
-    $ renpy.pause (1.5)
+    $ renpy.pause (1.0)
     c "A-Anna!" with vpunch
     An smirk flip "We’re still out here for the rest of the week. Hopefully, this’ll make you think twice before annoying me again."
     c "The water is freezing!"
@@ -1166,7 +1166,7 @@ $ renpy.pause (0.2)
 hide anna with easeoutleft
 $ renpy.pause (0.5)
 m "I started to get dressed, as Anna made her way past the tree line and deeper into the trees."
-m "By the time I had got dressed, Anna had gotten closer, but not too close, to the deer-like creature, and soon make her way around to the other side of it."
+m "By the time I had got dressed, Anna had gotten closer, but not too close, to the deer-like creature, and soon made her way around to the other side of it."
 m "Anna was still in my eyeshot, so she signaled me, and I made my way closer to the creature."
 $ renpy.pause (1.5)
 c "Hey!" with vpunch
@@ -1222,7 +1222,7 @@ m "She then unscrewed the bottle’s cap and took a quick swig from it."
 An "Mmm, that’s good."
 m "She then passed the bottle over to me."
 An "Don’t drink too much. We have to make it last the week."
-m "I proceed to also take a quick swing of the wine. It was very sweet and flavorful, but it also had a kind of spicy kick to it."
+m "I proceeded to also take a quick swing of the wine. It was very sweet and flavorful, but it also had a kind of spicy kick to it."
 c "That is pretty good."
 An smirk c "Which is exactly why I brought it."
 show anna normal c with dissolve 
@@ -1288,7 +1288,7 @@ An sad "That’s why I’m trying to not be as reckless as before. I want to mak
 c "Anna…"
 m "I held her in a tighter embrace and snuggled even closer."
 show anna normal with dissolve
-c "I’m sorry for making fun of you, saying you were scared. If I’d know that’s how you felt…"
+c "I’m sorry for making fun of you, saying you were scared. If I’d known that’s how you felt…"
 An "It’s alright. I know you meant it in a good-humored way."
 An smirk "Besides, I probably would’ve done something similar if the roles were reversed."
 show anna normal with dissolve
